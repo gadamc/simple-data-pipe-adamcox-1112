@@ -7,13 +7,13 @@ declared-services:
     label: SingleSignOn
     plan: standard
 applications:
-- name: simple-data-pipe
+- name: simple-data-pipe-adamcox-1112
   memory: 512M
   instances: 1
-  domain: mybluemix.net
   random-route: true
   disk_quota: 1024M
   command: node --expose-gc server.js
   path: .
   services:
-  - sdp-cloudant-service
+    - sdp-cloudant-service
+  host: simple-data-pipe-adamcox-1112
