@@ -48,6 +48,8 @@
     "simple-data-pipe-sdk": "^0.2.0",
     "simple-data-pipe-connector-stripe": "git://github.com/ibm-cds-labs/simple-data-pipe-connector-stripe.git",
     "simple-data-pipe-connector-salesforce": "git://github.com/ibm-cds-labs/simple-data-pipe-connector-salesforce.git",
+    "simple-data-pipe-connector-reddit": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-reddit.git",
+    "pipes-connector-flightstats": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-flightstats.git",
     "request": "~2.58.0",
     "when": "~3.7.3",
     "ws": "~0.7.2"
