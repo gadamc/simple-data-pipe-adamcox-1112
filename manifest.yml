@@ -8,7 +8,7 @@ declared-services:
     plan: standard
 applications:
 - name: simple-data-pipe-adamcox-1112
-  memory: 512M
+  memory: 1024M
   instances: 1
   random-route: true
   disk_quota: 1024M
